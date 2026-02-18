@@ -30,7 +30,7 @@ app = Flask(__name__)
 usuarios = cargar_usuarios_desde_json()
 
 
-@app.route("/", methods=["GET", "POST"])
+@app.route("/crear", methods=["GET", "POST"])
 def crear_usuario():
 
     if request.method == "POST":
@@ -62,7 +62,7 @@ def listar_usuarios():
 
 print("ROUTES:", app.url_map)
 
-@app.route("/menu")
+@app.route("/")
 def menu():
     return render_template("menu.html")
 
