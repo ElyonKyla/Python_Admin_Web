@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 from types import SimpleNamespace
 import json
 
@@ -66,6 +66,38 @@ print("ROUTES:", app.url_map)
 def menu():
     return render_template("menu.html")
 
+@app.route("/borrar/<email>")
+def borrar_usuario(email):
+    usuarios = cargar_usuarios_desde_json()
+    usuarios = [u for u in usuarios if u.email != email]
+    guardar_usuarios_a_json(usuarios)
+    return redirect("/usuarios")
+
+@app.route("/editar/<email>")
+def editar_usuario(email):
+    usuarios = cargar_usuarios_desde_json()
+    usuario = next((u for u in usuarios if u.email == email), None)
+
+    if usuario is None:
+        return "<h2>Usuario no encontrado</h2><a href='/usuarios'>Volver</a>"
+
+    return render_template("editar.html", usuario=usuario)
+
+@app.route("/editar_guardar/<email>", methods=["POST"])
+def editar_guardar(email):
+    usuarios = cargar_usuarios_desde_json()
+
+    for u in usuarios:
+        if u.email == email:
+            u.nombre = request.form["nombre"]
+            u.apellidos = request.form["apellidos"]
+            u.password = request.form["password"]
+            u.telefono = request.form["telefono"]
+            u.edad = request.form["edad"]
+            break
+
+    guardar_usuarios_a_json(usuarios)
+    return redirect("/usuarios")
 
 if __name__ == "__main__":
     app.run(debug=True)

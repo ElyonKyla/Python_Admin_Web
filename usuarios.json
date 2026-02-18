@@ -1,15 +1,7 @@
 [
     {
-        "email": "a",
-        "nombre": "a",
-        "apellidos": "a",
-        "password": "a",
-        "telefono": "a",
-        "edad": ""
-    },
-    {
         "email": "b",
-        "nombre": "b",
+        "nombre": "blasco",
         "apellidos": "b",
         "password": "b",
         "telefono": "b",
