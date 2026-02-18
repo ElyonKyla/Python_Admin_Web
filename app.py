@@ -55,6 +55,13 @@ def crear_usuario():
 
     return render_template("form.html")
 
+@app.route("/usuarios")
+def listar_usuarios():
+    usuarios = cargar_usuarios_desde_json()
+    return render_template("usuarios.html", usuarios=usuarios)
+
+print("ROUTES:", app.url_map)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
