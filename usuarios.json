@@ -14,5 +14,29 @@
         "password": "b",
         "telefono": "b",
         "edad": ""
+    },
+    {
+        "email": "patata",
+        "nombre": "patata",
+        "apellidos": "patata",
+        "password": "patata",
+        "telefono": "patata",
+        "edad": ""
+    },
+    {
+        "email": "fds",
+        "nombre": "f",
+        "apellidos": "f",
+        "password": "f",
+        "telefono": "f",
+        "edad": ""
+    },
+    {
+        "email": "asd",
+        "nombre": "k",
+        "apellidos": "k",
+        "password": "k",
+        "telefono": "k",
+        "edad": ""
     }
 ]
