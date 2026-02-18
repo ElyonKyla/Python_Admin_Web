@@ -14,8 +14,9 @@
     <th>Apellidos</th>
     <th>Teléfono</th>
     <th>Edad</th>
+    <th>Acciones</th>
   </tr>
-
+ 
   {% for u in usuarios %}
   <tr>
     <td>{{ u.email }}</td>
@@ -23,8 +24,14 @@
     <td>{{ u.apellidos }}</td>
     <td>{{ u.telefono }}</td>
     <td>{{ u.edad }}</td>
+    <td>
+        <a href="/editar/{{ u.email }}">Editar</a> |
+        <a href="/borrar/{{ u.email }}">Borrar</a>
+    </td>
   </tr>
   {% endfor %}
+ 
+
 </table>
 
 <br>
