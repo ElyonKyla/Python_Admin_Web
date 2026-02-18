@@ -1,1 +1,18 @@
-[]
+[
+    {
+        "email": "a",
+        "nombre": "a",
+        "apellidos": "a",
+        "password": "a",
+        "telefono": "a",
+        "edad": ""
+    },
+    {
+        "email": "b",
+        "nombre": "b",
+        "apellidos": "b",
+        "password": "b",
+        "telefono": "b",
+        "edad": ""
+    }
+]
