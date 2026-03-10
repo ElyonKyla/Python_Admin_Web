@@ -1,34 +1,82 @@
 [
     {
-        "email": "b",
-        "nombre": "blasco",
-        "apellidos": "b",
-        "password": "b",
-        "telefono": "b",
-        "edad": ""
+        "email": "sherlock.holmes@bakerstreet.com",
+        "nombre": "Sherlock",
+        "apellidos": "Holmes",
+        "password": "221b",
+        "telefono": "600111111",
+        "edad": 40
     },
     {
-        "email": "patata",
-        "nombre": "patata",
-        "apellidos": "patata",
-        "password": "patata",
-        "telefono": "patata",
-        "edad": ""
+        "email": "elizabeth.bennet@longbourn.com",
+        "nombre": "Elizabeth",
+        "apellidos": "Bennet",
+        "password": "pride",
+        "telefono": "600222222",
+        "edad": 28
     },
     {
-        "email": "fds",
-        "nombre": "f",
-        "apellidos": "f",
-        "password": "f",
-        "telefono": "f",
-        "edad": ""
+        "email": "don.quijote@mancha.com",
+        "nombre": "Don",
+        "apellidos": "Quijote",
+        "password": "rocinante",
+        "telefono": "600333333",
+        "edad": 50
     },
     {
-        "email": "asd",
-        "nombre": "k",
-        "apellidos": "k",
-        "password": "k",
-        "telefono": "k",
-        "edad": ""
+        "email": "harry.potter@hogwarts.com",
+        "nombre": "Harry",
+        "apellidos": "Potter",
+        "password": "gryffindor",
+        "telefono": "600444444",
+        "edad": 17
+    },
+    {
+        "email": "frodo.bolsom@shire.com",
+        "nombre": "Frodo",
+        "apellidos": "Bolsom",
+        "password": "ring",
+        "telefono": "600555555",
+        "edad": 33
+    },
+    {
+        "email": "anna.karenina@moscu.com",
+        "nombre": "Anna",
+        "apellidos": "Karenina",
+        "password": "tolstoi",
+        "telefono": "600666666",
+        "edad": 32
+    },
+    {
+        "email": "gregor.samsa@praga.com",
+        "nombre": "Gregor",
+        "apellidos": "Samsa",
+        "password": "metamorfosis",
+        "telefono": "600777777",
+        "edad": 30
+    },
+    {
+        "email": "dorian.gray@londres.com",
+        "nombre": "Dorian",
+        "apellidos": "Gray",
+        "password": "portrait",
+        "telefono": "600888888",
+        "edad": 27
+    },
+    {
+        "email": "hercule.poirot@belgica.com",
+        "nombre": "Hercule",
+        "apellidos": "Poirot",
+        "password": "littlecells",
+        "telefono": "600999999",
+        "edad": 55
+    },
+    {
+        "email": "katniss.everdeen@panem.com",
+        "nombre": "Katniss",
+        "apellidos": "Everdeen",
+        "password": "mockingjay",
+        "telefono": "600123456",
+        "edad": 18
     }
 ]
