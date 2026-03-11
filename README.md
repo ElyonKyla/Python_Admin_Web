@@ -1,44 +1,103 @@
 # 🐍 Python Admin Web
 
-**Flask CRUD web application for user administration with persistent
-JSON storage.**
+A simple **web administration interface built with Flask** for basic user management.
 
-## 📌 Project Overview
+This project was developed as a learning exercise to explore the fundamentals of **Python web development**, including routing, templates, form handling, and data persistence using JSON.
 
-Python Admin Web is a lightweight backend-focused web application built
-with Flask.\
-It allows creating, listing, editing, and deleting users through a
-dynamic web interface, with data persistence handled via a JSON file.
+The application provides a minimal interface to **manage users stored locally** and demonstrates how a lightweight backend can power a functional web interface.
 
-This project demonstrates fundamental backend development concepts
-including:
+---
 
--   CRUD operations
--   HTTP methods (GET & POST)
--   Template rendering with Jinja2
--   JSON-based data persistence
--   Basic project structure organization
+## ✨ Features
 
-------------------------------------------------------------------------
+🔐 Simple login system  
+👤 User registration  
+📋 User listing and management  
+💾 Local data storage using JSON  
+🧩 HTML templates rendered with Jinja2  
+🌐 Lightweight Flask web server  
 
-## 🛠 Tech Stack
+---
 
--   Python 3
--   Flask
--   HTML (Jinja2 templates)
--   JSON (file-based storage)
+## 🛠️ Technologies Used
 
-------------------------------------------------------------------------
+- **Python**
+- **Flask**
+- **HTML**
+- **Jinja2 Templates**
+- **JSON** for local data persistence
 
-## 🚧 Project Status
+---
 
-Currently in development.
+## 📁 Project Structure
 
-------------------------------------------------------------------------
+```
+Python_Admin_Web/
+│
+├── app.py
+├── usuarios.json
+├── requirements.txt
+├── README.md
+│
+└── templates/
+    ├── index.html
+    ├── login.html
+    └── usuarios.html
+```
 
-## 🎯 Goals
+- **app.py** → main Flask application  
+- **usuarios.json** → local storage for user data  
+- **templates/** → HTML templates rendered by Flask  
 
--   Implement full CRUD functionality
--   Persist data using JSON
--   Maintain clean and modular project structure
--   Follow good backend development practices
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ElyonKyla/Python_Admin_Web
+cd Python_Admin_Web
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+python app.py
+```
+
+The server will start at:
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+## 📚 Educational Purpose
+
+This project was created for **learning purposes** to practice:
+
+- Flask web development
+- backend logic with Python
+- template rendering with Jinja2
+- simple user management workflows
+- JSON-based data persistence
+
+It is not intended for production use.
+
+---
+
+## 📄 License
+
+This project is distributed under the **MIT License**.
+
+---
+
+⭐ If you find this project interesting, feel free to explore the code and experiment with it.
